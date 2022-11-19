@@ -8,7 +8,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rsglabel" {
-    name = "rsgprog3"
+    name = "rsgprog4"
     location = "East US"
     tags = {
       "name" = "practice-rsg"
