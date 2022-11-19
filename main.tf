@@ -17,7 +17,7 @@ resource "azurerm_resource_group" "rsglabel" {
 }
 
 resource "azurerm_app_service_plan" "appplan" {
-    name = "appplaneprod4"
+    name = "appplaneprod6"
     location = azurerm_resource_group.rsglabel.location
     resource_group_name = azurerm_resource_group.rsglabel.name
     sku {
